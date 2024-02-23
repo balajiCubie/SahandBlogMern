@@ -6,10 +6,12 @@ import DashBoard from "./pages/DashBoard";
 import SignIn from "./pages/SignIn";
 import SignOut from "./pages/SignOut";
 import NotFound from "./pages/NotFound";
+import Header from "./Components/Header";
 function App() {
   return (
     <>
       <BrowserRouter>
+        <Header></Header>{" "}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
