@@ -1,4 +1,3 @@
-import { timeStamp } from "console";
 import { Mongoose } from "mongoose";
 
 const userSchema = new Mongoose.Schema(
