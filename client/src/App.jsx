@@ -4,7 +4,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import DashBoard from "./pages/DashBoard";
 import SignIn from "./pages/SignIn";
-import SignOut from "./pages/SignOut";
+import SignUp from "./pages/SignUp";
 import NotFound from "./pages/NotFound";
 import Header from "./Components/Header";
 function App() {
@@ -17,8 +17,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/Dashboard" element={<DashBoard />} />
-          <Route path="SignIn" element={<SignIn />} />
-          <Route path="SignOut" element={<SignOut />} />
+          <Route path="/SignIn" element={<SignIn />} />
+          <Route path="/Signup" element={<SignUp />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
